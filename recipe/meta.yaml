@@ -1,4 +1,4 @@
-{% set version = "4.2.2" %}
+{% set version = "4.3.0" %}
 {% set openjdk_version = "11.0.*" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/denoptim-project/DENOPTIM/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 634ab9df4365e9c98e6de5716f8bb3e13d0457a9312382db8429061869d6efc6
+  sha256: 056a2e1c00290991c07c4d9f39280a3d78a330e1ddb82415648518befde9e19b
 
 build:
   number: 0
