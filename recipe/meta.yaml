@@ -31,7 +31,7 @@ about:
   license_file:
     - COPYING
     - licenses/THIRD-PARTY.txt
-    - licenses/dependencies/
+    - licenses/license_files/
   summary: Package for de novo design and virtual screening of functional molecules of any kind.
   description: Package for de novo design and virtual screening of functional molecules of any kind.
   dev_url: https://github.com/denoptim-project/DENOPTIM
