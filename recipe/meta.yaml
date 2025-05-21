@@ -1,5 +1,5 @@
-{% set version = "4.3.0" %}
-{% set openjdk_version = "11.0.*" %}
+{% set version = "4.4.0" %}
+{% set openjdk_version = "17.*" %}
 
 package:
   name: denoptim
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/denoptim-project/DENOPTIM/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 056a2e1c00290991c07c4d9f39280a3d78a330e1ddb82415648518befde9e19b
+  sha256: a657110b35645602da3dea13057a4ed493d584eb30da464adafec61f6529fb32
 
 build:
   number: 0
@@ -31,7 +31,7 @@ about:
   license_file:
     - COPYING
     - licenses/THIRD-PARTY.txt
-    - licenses/dependencies/
+    - licenses/license_files/
   summary: Package for de novo design and virtual screening of functional molecules of any kind.
   description: Package for de novo design and virtual screening of functional molecules of any kind.
   dev_url: https://github.com/denoptim-project/DENOPTIM
